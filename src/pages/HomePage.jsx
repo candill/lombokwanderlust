@@ -9,8 +9,8 @@ import React from 'react';
     const featuredPackages = [
       {
         id: 1,
-        title: 'Petualangan Eksotis Bali',
-        location: 'Bali, Indonesia',
+        title: 'Sasak Tour',
+        location: 'Lombok, Indonesia',
         rating: 4.9,
         price: '3.500.000',
         image: 'Pulau tropis Bali dengan pura di tepi danau',
@@ -18,7 +18,7 @@ import React from 'react';
       },
       {
         id: 2,
-        title: 'Pesona Sejarah Yogyakarta',
+        title: 'Hiden Waterfall and Village Private',
         location: 'Yogyakarta, Indonesia',
         rating: 4.8,
         price: '2.800.000',
@@ -27,10 +27,19 @@ import React from 'react';
       },
       {
         id: 3,
-        title: 'Keajaiban Alam Raja Ampat',
+        title: 'Secret Island Snorkeling Trip. Gili Nanggu, Gili Sudak and Gili Kedis',
         location: 'Raja Ampat, Indonesia',
         rating: 5.0,
         price: '7.200.000',
+        image: 'Pemandangan udara gugusan pulau karst di Raja Ampat',
+        alt: 'Pemandangan indah kepulauan Raja Ampat',
+      },
+        {
+        id: 3,
+        title: 'Snorkeling 3Gilis Private Daily Tour',
+        location: 'Raja Ampat, Indonesia',
+        rating: 5.0,
+        price: '2.200.000',
         image: 'Pemandangan udara gugusan pulau karst di Raja Ampat',
         alt: 'Pemandangan indah kepulauan Raja Ampat',
       },
@@ -39,14 +48,14 @@ import React from 'react';
     const testimonials = [
         {
             id: 1,
-            name: 'Rina Amelia',
+            name: 'Amet',
             comment: '"Perjalanan ke Bali bersama WisataYuk sangat luar biasa! Semuanya terorganisir dengan baik. Pemandu wisatanya ramah dan sangat berpengetahuan. Sangat direkomendasikan!"',
             avatar: 'Potret wanita tersenyum bahagia',
             alt: 'Foto profil Rina Amelia',
         },
         {
             id: 2,
-            name: 'Budi Santoso',
+            name: 'Poet',
             comment: '"Pengalaman tak terlupakan di Raja Ampat. Pemandangan bawah lautnya spektakuler. Terima kasih WisataYuk telah mewujudkan liburan impian saya!"',
             avatar: 'Pria petualang dengan latar belakang gunung',
             alt: 'Foto profil Budi Santoso',
@@ -84,7 +93,7 @@ import React from 'react';
           transition={pageTransition}
         >
           <Helmet>
-            <title>WisataYuk - Jelajahi Destinasi Impian Anda</title>
+            <title>Lombok Wanderlust - Jelajahi Destinasi Impian Anda</title>
             <meta name="description" content="Temukan dan pesan paket wisata terbaik ke destinasi paling menakjubkan di seluruh dunia. Liburan impian Anda dimulai di sini." />
           </Helmet>
 
