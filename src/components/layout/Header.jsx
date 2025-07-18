@@ -31,7 +31,7 @@ import React, { useState } from 'react';
           <div className="container mx-auto flex justify-between items-center">
             <Link to="/" className="flex items-center gap-2">
               <Globe className="h-8 w-8 text-sky-400" />
-              <span className="text-2xl font-bold text-white">WisataYuk</span>
+              <span className="text-2xl font-bold text-white">LombokWanderlust</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-6">
